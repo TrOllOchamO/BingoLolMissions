@@ -1,0 +1,66 @@
+Mission	Mission Name	Mission Description	Is implemented	Is fully testsed	
+M0	Scrooge McDuck	Accumulate 3000 gold or more.	1	1	
+M1	PLAY SAFE OMG	One of your ally has 7 or more deaths within 15 minutes.	1	1	
+M2	Sould i b ?	Stay alive 1min30 with your HP below 40%.	1	1	
+M3	Not even close !	Survive one minute after your HP dropped below 20.	1	1	
+M4	Farmer	Have 80 cs or more befor minute 10.	1	1	
+M5	Peaceful & harmless life	An ally has 0 kills and 0 assists at 10 minutes.	1	1	
+M6	Is this LCS ?	No first blood until minute 4.	1	1	
+M7	Are you winning son ?	Win the game.	1	1	
+M8	One stone two birds	Get a double kill.	1	1	
+M9	OH BABY A TRIPLE	Your team take a triple kill.	1	1	
+M10	Bruh moment	The ennemy team get a triple kill.	1	1	
+M11	Give penta pls !	Someone get a quadrakill.	1	1	
+M12	Pearl Harbor	Your team get the first blood.	1	1	
+M13	Take your time	The game last more than 35 min.	1	1	
+M14	How did we get there ?	Someone get executed.	1	1	
+M15	Come here Shelly	Your team kill the first Herald.	1	0	Still need to test on the ennemy team
+M16	Bot diff !	A botlane inhibitor get destroyed.	1	1	
+M17	Tot diff !	A toplane inhibitor get destroyed.	1	1	
+M18	Ace	Your team get an ace.	1	1	
+M19	Ace...	Your team get aced.	1	1	
+M20	Face the wind !	Your team get a cloud drake.	1	1	
+M21	I am fire, I am death.	Your team get a fire drake.	1	1	
+M22	FUS RO DAH !!!	Your team get a montain drake.	1	1	
+M23		Your team get an ocean drake.	1	1	
+M24	XP Grand Canyon gap	Two player have 4 or more levels of difference.	1	1	
+M25	Sly Cooper	Your team steal a drake.	1	1	
+M26		The ennemy team steal a drake.	1	1	
+M27		Your team get a nashor.	1	1	
+M28	Turbo feed	Someone die before 2min.	1	1	
+M29	Can't touch this	Have 0 death at 10min.	1	1	
+M30	Fast as fuck boiii	Someone buy mobility boots.	1	1	
+M31	Cull-tivate	Someone buy a cull.	1	1	
+M32	Speedrun	The game last less than 21min.	1	1	
+M33		A team get the dragon soul.	1	1	
+M34	Peace treaty	2 min has passed since the last kill.	1	1	
+M35		Your team get the first Turret.	1	1	
+M36	Vision is the key	Leave the shop with 2 pinks.	1	1	
+M37	Split pusher	Finish a turret without the help of any of your allies.	1	1	
+M38	Revenge !	Murder back the player who killed you within two minutes of your death.	1	0	
+M39	Team play	Your whole team participates in the elimination of an enemy.	1	1	
+M40	Survivor	Your team inhibitors respawn 2 times.	1	1	
+M41	Nine eleven	Two towers are destroyed within 30 seconds.	1	1	
+M42	Martyrdom	Kill someone while beeing dead.	1	1	
+M43	Four twenty	Someone has 4/2/0 as kda.	1	1	
+M44	Wrecking ball	The first tower fall before minute 10.	1	1	
+M45	Yasuo power spike	Someone hit 10 deaths.	1	1	
+M46	Cyber bullying	Kill the same enemy twice in a row.	1	1	
+M47	Just 2V2 now !	Only two players are alive in both teams.	1	1	
+M48	Feel the loneliness...	You are the only one still alive in your team.	1	1	
+M49	What’s 9 plus 10 ?	Someone is involved in 21 or more kills.	1	1	
+M50		Your team has 35 kills or more.	1	1	
+M51	Godzilla	You participate in the destruction of 4 batiments, tourret or inhibitor.	1	1	
+M52	Bull’s eye	The fisrt Herald get killed befor the 9th minutes.	1	1	
+M53	Species extinction	Two Heralds got killed.	1	1	
+M54					
+M55					
+M56					
+					
+					
+		faire une mission sur le score de vision			
+		Un ennemi a 10 kills			
+		un autre alli� a 10kills			
+		Un ennemi a 10 morts			
+		L'�quipe ennemie a la premi�re tour			
+		un joueur est l�gendaire			
