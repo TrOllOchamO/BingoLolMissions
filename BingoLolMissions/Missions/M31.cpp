@@ -2,7 +2,7 @@
 
 using json = nlohmann::json;
 
-#define MISSION_NAME ""
+#define MISSION_NAME "Cull-tivate"
 #define MISSION_DESCRIPTION "Someone buy a cull."
 
 M31::M31() : AbstractMission(MISSION_NAME, MISSION_DESCRIPTION), m_whenCullHasBeenPurchase(-1)

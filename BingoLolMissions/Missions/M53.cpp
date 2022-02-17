@@ -2,8 +2,8 @@
 
 using json = nlohmann::json;
 
-#define MISSION_NAME ""
-#define MISSION_DESCRIPTION ""
+#define MISSION_NAME "Species extinction"
+#define MISSION_DESCRIPTION "Two Heralds got killed."
 
 M53::M53() : AbstractMission(MISSION_NAME, MISSION_DESCRIPTION)
 {

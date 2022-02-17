@@ -3,7 +3,7 @@
 using json = nlohmann::json;
 
 #define MISSION_NAME "Farmer"
-#define MISSION_DESCRIPTION "Have 80 cs or more before minute 10."
+#define MISSION_DESCRIPTION "Have 80 cs or more befor minute 10."
 
 M4::M4() : AbstractMission(MISSION_NAME, MISSION_DESCRIPTION)
 {
