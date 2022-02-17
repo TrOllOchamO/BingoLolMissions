@@ -19,22 +19,24 @@ M54::~M54()
 
 bool M54::mission()
 {
-	int team1(0);
-	int team2(0);
+	std::string playerName(Missions::getActivePlayerName(m_gameData));
+	std::string activePlayerTeam(Missions::getSummonerTeam(m_gameData, playerName));
+	int playerTeamScore(0);
+	int ennemyTeamScore(0);
 
 	for (auto it : m_gameData->operator[]("allPlayers"))
 	{
-		if (it["team"] == "ORDER")
+		if (it["team"] == activePlayerTeam)
 		{
-			team1 += it["scores"]["kills"];
+			playerTeamScore += it["scores"]["kills"];
 		}
 		else
 		{
-			team2 += it["scores"]["kills"];
+			ennemyTeamScore += it["scores"]["kills"];
 		}
 	}
 
-	if (std::abs(team1 - team2) >= 10)
+	if (std::abs(playerTeamScore - ennemyTeamScore) >= 10)
 	{
 		m_isMissionDone = true;
 		return true;
