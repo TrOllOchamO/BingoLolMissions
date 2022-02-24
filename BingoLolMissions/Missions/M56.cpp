@@ -3,8 +3,8 @@
 using json = nlohmann::json;
 using string = std::string;
 
-#define MISSION_NAME "Unstoppable"
-#define MISSION_DESCRIPTION "A player does a streak of 5 kills without dying from an other player."
+#define MISSION_NAME "Dominating"
+#define MISSION_DESCRIPTION "A player does a streak of 6 kills without dying from an other player."
 
 M56::M56() : AbstractMission(MISSION_NAME, MISSION_DESCRIPTION)
 {
@@ -23,7 +23,7 @@ bool M56::mission()
     std::vector<string> playersList;
     Missions::getPlayerList(m_gameData, playersList);
     size_t nbPlayer(playersList.size());
-    const int killStreakGoal(5); // Unstopable is 5 kills without dying
+    const int killStreakGoal(6); // The number of kill needed befor dying by a player
 
     std::map<string, int> killStreak;
 
@@ -48,7 +48,7 @@ bool M56::mission()
 
                 for (std::map<string, int>::iterator iter = killStreak.begin(); iter != killStreak.end(); ++iter)
                 {
-                    if (iter->second == killStreakGoal) //someone hit the kill streak goal
+                    if (iter->second == killStreakGoal) // someone hit the kill streak goal
                     {
                         m_isMissionDone = true;
                         return true;

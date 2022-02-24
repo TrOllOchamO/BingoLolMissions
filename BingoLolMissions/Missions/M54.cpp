@@ -2,7 +2,7 @@
 
 using json = nlohmann::json;
 
-#define MISSION_NAME "FFÂ ?"
+#define MISSION_NAME "FF  ?"
 #define MISSION_DESCRIPTION "There is a difference of 10 kills between the 2 teams."
 
 M54::M54() : AbstractMission(MISSION_NAME, MISSION_DESCRIPTION)

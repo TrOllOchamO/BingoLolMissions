@@ -1,5 +1,13 @@
 import os
 
+
+def remove_non_ascii_chars(non_ascii_str):
+    cleaned = non_ascii_str.replace("’", "'")  # replace the weird apostrophe given by the csv with the ascii one
+    cleaned = cleaned.replace("\xa0", " ")  # replace the weird space given by the csv with the ascii one
+    cleaned = cleaned.replace("\xC2", " ")  # replace the second weird space given by the csv with the ascii one
+    return cleaned
+
+
 missionListDir = os.listdir("BingoLolMissions/Missions")
 
 with open("missionList.csv", "r") as missionsList:  # open the csv
@@ -21,14 +29,12 @@ with open("missionList.csv", "r") as missionsList:  # open the csv
                 for j in range(len(lines)):
                     if "#define MISSION_NAME" in lines[j]:  # if the MISSION_NAME line exist
                         newName = linesList[i][1].rstrip()  # get the name from the list
-                        newName = newName.replace("’", "'")  # replace the weird apostrophe given by the csv with the ascii one
-                        newName = newName.replace("\xa0", " ")  # replace the weird space given by the csv with the ascii one
+                        newName = remove_non_ascii_chars(newName)
                         lines[j] = f"""#define MISSION_NAME "{newName}"\n"""
                         changed = True
                     if "#define MISSION_DESCRIPTION" in lines[j]:  # if the MISSION_DESCRIPTION line exist
                         newDescription = linesList[i][2].rstrip()
-                        newDescription = newDescription.replace("’", "'")
-                        newName = newName.replace("\xa0", " ")
+                        newDescription = remove_non_ascii_chars(newDescription)
                         lines[j] = f"""#define MISSION_DESCRIPTION "{newDescription}"\n"""
                         changed = True
 

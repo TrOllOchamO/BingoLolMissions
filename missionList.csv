@@ -55,7 +55,7 @@ M52	Bull’s eye	The fisrt Herald get killed befor the 9th minutes.	1	1
 M53	Species extinction	Two Heralds got killed.	1	1	
 M54	FF ?	There is a difference of 10 kills between the 2 teams.	1	1	
 M55		Your team has 15 more vision score than the opposing team.	1	0	maybe adjust the diff
-M56	Unstoppable	A player does a streak of 5 kills without dying from an other player.	1	0	need to test on the ennemy team
+M56	Dominating	A player does a streak of 6 kills without dying from an other player.	1	0	need to test on the ennemy team
 					
 					
 					
