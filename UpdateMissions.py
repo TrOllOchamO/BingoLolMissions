@@ -4,7 +4,7 @@ import os
 def remove_non_ascii_chars(non_ascii_str):
     cleaned = non_ascii_str.replace("’", "'")  # replace the weird apostrophe given by the csv with the ascii one
     cleaned = cleaned.replace("\xa0", " ")  # replace the weird space given by the csv with the ascii one
-    cleaned = cleaned.replace("\xC2", " ")  # replace the second weird space given by the csv with the ascii one
+    cleaned = cleaned.replace("\xC2", "")  # replace the extra weird space given by the csv
     return cleaned
 
 
