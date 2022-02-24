@@ -10,7 +10,7 @@ int main()
 {
 	json gameData;
 	ClientData clientData(&gameData);
-	M55 mission;
+	M56 mission;
 	mission.setGameData(&gameData);
 	int TimebetweenTests(10);
 

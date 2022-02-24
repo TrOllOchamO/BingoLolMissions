@@ -7,7 +7,7 @@
 #include <iostream>
 #include <map>
 
-#define TOTAL_NUMBER_OF_MISSIONS 56
+#define TOTAL_NUMBER_OF_MISSIONS 57
 #include "nlohmann/json.hpp"
 #include "AbstractMission.h"
 #include "M0.h"
@@ -66,6 +66,7 @@
 #include "M53.h"
 #include "M54.h"
 #include "M55.h"
+#include "M56.h"
 
 
 class Missions

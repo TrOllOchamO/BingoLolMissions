@@ -397,6 +397,9 @@ std::vector<AbstractMission*> Missions::getMissionListFromlistOfMissionNumber(st
 		case 55:
 			missionList.push_back(new M55);
 			break;
+		case 56:
+			missionList.push_back(new M56);
+			break;
 		default:
 			throw "Missions::getMissionListFromlistOfMissionNumber : One of the int in your list does not correspond with any mission.";
 		}

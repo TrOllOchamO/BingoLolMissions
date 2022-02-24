@@ -7,7 +7,7 @@ AbstractMission::AbstractMission(std::string missionName, std::string missionDes
     m_inRealTime(false), m_notRealTimeTimer(20)
 {
     std::random_device rd;
-    m_notRealTimeTimer = rd() % 20; //start the counter with a random value in [0;19]
+    m_notRealTimeTimer = rd() % 20; //start the counter with a random value in [0;19] so every non-realtime mission doesn't execute at the same time
 }
 
 AbstractMission::~AbstractMission()
