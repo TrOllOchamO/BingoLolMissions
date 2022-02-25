@@ -1,4 +1,4 @@
-Mission	Mission Name	Mission Description	Is implemented	Is fully testsed	
+Mission	Mission Name	Mission Description	Is implemented	Is fully testsed	Comment
 M0	Scrooge McDuck	Accumulate 3000 gold or more.	1	1	
 M1	PLAY SAFE OMG	One of your ally has 7 or more deaths within 15 minutes.	1	1	
 M2	Sould i b ?	Stay alive 1min30 with your HP below 40%.	1	1	
@@ -25,8 +25,8 @@ M22	FUS RO DAH !!!	Your team get a montain drake.	1	1
 M23		Your team get an ocean drake.	1	1	
 M24	XP Grand Canyon gap	Two player have 4 or more levels of difference.	1	1	
 M25	Sly Cooper	Your team steal a drake.	1	1	
-M26		The ennemy team steal a drake.	1	1	
-M27		Your team get a nashor.	1	1	
+M26	Swiper no swiping !	The ennemy team steal a drake.	1	1	
+M27	Rush B-aron	Your team get a nashor.	1	1	
 M28	Turbo feed	Someone die before 2min.	1	1	
 M29	Can't touch this	Have 0 death at 10min.	1	1	maybe adjust to 9min
 M30	Fast as fuck boiii	Someone buy mobility boots.	1	1	
@@ -56,10 +56,3 @@ M53	Species extinction	Two Heralds got killed.	1	1
 M54	FF ?	There is a difference of 10 kills between the 2 teams.	1	1	
 M55		Your team has 15 more vision score than the opposing team.	1	0	maybe adjust the diff
 M56	Dominating	A player does a streak of 6 kills without dying from an other player.	1	0	need to test on the ennemy team
-					
-					
-					
-		Un ennemi a 10 kills			
-		un autre alli� a 10kills			
-		Un ennemi a 10 morts			
-		L'�quipe ennemie a la premi�re tour			
