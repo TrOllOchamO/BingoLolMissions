@@ -2,15 +2,15 @@ import os
 
 
 def remove_non_ascii_chars(non_ascii_str):
-    cleaned = non_ascii_str.replace("’", "'")  # replace the weird apostrophe given by the csv with the ascii one
-    cleaned = cleaned.replace("\xa0", " ")  # replace the weird space given by the csv with the ascii one
-    cleaned = cleaned.replace("\xC2", "")  # replace the extra weird space given by the csv
+    cleaned = non_ascii_str.replace("’", "'")  # replace the weird apostrophe given by the tsv with the ascii one
+    cleaned = cleaned.replace("\xa0", " ")  # replace the weird space given by the tsv with the ascii one
+    cleaned = cleaned.replace("\xC2", "")  # replace the extra weird space given by the tsv
     return cleaned
 
 
 missionListDir = os.listdir("BingoLolMissions/Missions")
 
-with open("missionList.csv", "r") as missionsList:  # open the csv
+with open("missionList.tsv", "r") as missionsList:  # open the tsv
 
     # create a list of list who contains mission's info
     linesList = missionsList.readlines()  # get the list of every lines
