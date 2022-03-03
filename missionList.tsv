@@ -40,10 +40,10 @@ M37	Split pusher	Finish a tower without the help of any of your allies.	1	1
 M38	Revenge !	Murder back the player who killed you within two minutes of your death.	1	0	
 M39	Team play	Your whole team participates in the elimination of an enemy.	1	1	
 M40	Survivor	Your team inhibitors respawn 2 times.	1	1	
-M41	Nine eleven	Two towers are destroyed within 30 seconds.	1	1	
+M41	Nine eleven	Two towers are destroyed within 30 seconds.	1	1	The mission name could be replace by Earthquake for a more family friendly version
 M42	Martyrdom	Kill someone while beeing dead.	1	1	
 M43	Four twenty	Someone has 4/2/0 as kda.	1	1	
-M44	Wrecking ball	The first tower fall before minute 10.	1	1	
+M44	Time to Mine !	The first tower fall before minute 10.	1	1	
 M45	Yasuo power spike	Someone hit 10 deaths.	1	1	
 M46	Cyber bullying	Kill the same enemy twice in a row.	1	1	
 M47	Just 2V2 now !	Only two players are alive in both teams.	1	1	
