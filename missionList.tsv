@@ -16,7 +16,7 @@ M13	Take your time	The game last more than 35 min.	1	1
 M14	How did we get there ?	Someone get executed.	1	1	
 M15	Come here Shelly	Your team kill the first Herald.	1	0	Still need to test on the ennemy team
 M16	Bot diff !	A botlane inhibitor get destroyed.	1	1	
-M17	Tot diff !	A toplane inhibitor get destroyed.	1	1	
+M17	Top diff !	A toplane inhibitor get destroyed.	1	1	
 M18	Ace	Your team get an ace.	1	1	
 M19	Ace...	Your team get aced.	1	1	
 M20	Face the wind !	Your team get a cloud drake.	1	1	
