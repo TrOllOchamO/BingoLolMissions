@@ -1,7 +1,7 @@
 Mission	Mission Name	Mission Description	Is implemented	Is fully testsed	Comment
 M0	Scrooge McDuck	Accumulate 3000 gold or more.	1	1	
 M1	PLAY SAFE OMG	One of your ally has 7 or more deaths within 15 minutes.	1	1	
-M2	Sould i b ?	Stay alive 1min30 with your HP below 40%.	1	1	
+M2	Should i b ?	Stay alive 1min30 with your HP below 40%.	1	1	
 M3	Not even close !	Survive one minute after your HP dropped below 20.	1	1	maybe change for X% HP (1 or 2%)
 M4	Farmer	Have 80 cs or more befor minute 10.	1	1	
 M5	Peaceful & harmless life	An ally has 0 kills and 0 assists at 10 minutes.	1	1	
